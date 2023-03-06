@@ -23,3 +23,5 @@ test_results.csv
 .waf-*/
 build/
 .*.swp
+
+.vscode
