@@ -1,12 +1,12 @@
 
 ## Target name
-set( LIB_NAME lib_i2c)
+set(LIB_NAME lib_i2c)
 
 ## Source files
-file( GLOB_RECURSE    SOURCES_C   "src/**/*.c" )
-file( GLOB_RECURSE    SOURCES_XC  "src/**/*.xc" )
-file( GLOB_RECURSE    SOURCES_CPP "src/**/*.cpp" )
-file( GLOB_RECURSE    SOURCES_ASM "src/**/*.S"   )
+file( GLOB_RECURSE    SOURCES_C   "src/*.c" )
+file( GLOB_RECURSE    SOURCES_XC  "src/*.xc" )
+file( GLOB_RECURSE    SOURCES_CPP "src/*.cpp" )
+file( GLOB_RECURSE    SOURCES_ASM "src/*.S"   )
 
 add_library( ${LIB_NAME}  STATIC )
 
