@@ -21,6 +21,7 @@ target_sources( ${LIB_NAME}
 target_include_directories( ${LIB_NAME}
   PUBLIC
     api
+    xassert
 )
 
 target_compile_options( ${LIB_NAME}
@@ -30,4 +31,8 @@ target_compile_options( ${LIB_NAME}
     -Wno-unused-variable 
     -Wno-missing-braces
     # $<$<PLATFORM_ID:XCORE_XS3A>:-Wno-xcore-fptrgroup>
+)
+
+target_link_libraries( ${LIB_NAME}
+  lib_xassert
 )
