@@ -19,6 +19,7 @@ string(REPLACE "-MD" "-MMD" CMAKE_DEPFILE_FLAGS_C ${CMAKE_DEPFILE_FLAGS_C})
 
 ## Add libs and apps directory
 add_subdirectory( lib_i2c )
+add_subdirectory( lib_xassert )
 # add_subdirectory( app ) # not needed
 
 ## Add and link the library
