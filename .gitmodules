@@ -1,4 +1,4 @@
-[submodule "modules/lib_xassert"]
+[submodule "lib_xassert"]
 	path = lib_xassert
 	url = https://github.com/xalbertoisorna/lib_xassert
 	branch = develop
